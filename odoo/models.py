@@ -1764,7 +1764,7 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
                 # Cfr: http://babel.pocoo.org/docs/dates/#date-fields
                 'day': 'dd MMM yyyy', # yyyy = normal year
                 'week': "'W'w YYYY",  # w YYYY = ISO week-year
-                'month': 'MMMM yyyy',
+                'month': 'yyyy/MM',
                 'quarter': 'QQQ yyyy',
                 'year': 'yyyy',
             }
